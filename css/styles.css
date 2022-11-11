@@ -1,0 +1,35 @@
+body {
+    background-color: #EAF6F6; /*overwrite default css value*/
+}
+hr {
+    border-style: dotted none none;
+    border-color:grey;
+    border-width: 5px;
+    width: 5%; 
+}
+h1 {
+    color : #66BFBF;
+}
+h3{
+    color : #66BFBF;
+}
+img:hover{ /*sudo class, no declare in index.html*/
+    border-radius: 50%;
+}
+
+
+
+.profile{ /*higher priority*/
+    border-radius: 50%;
+}
+
+.jiahao_ren{
+    border-radius: 0%;
+}
+
+
+
+
+#education{ /*higher priority*/
+    color:blue;
+}
