@@ -31,5 +31,5 @@ img:hover{ /*sudo class, no declare in index.html*/
 
 
 #education{ /*higher priority*/
-    color:blue;
+    color:red;
 }
