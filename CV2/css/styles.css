@@ -1,3 +1,54 @@
+/*
+each html element (h1, div, img等) has 
+1.box model: width/height, padding, border, margin
+2.display: block(p,h1,div,ol,ul,li,form), inline（img,span,a; cannot edit width）, inline-block, none
+3.position: static, relative(add margin on original), absolute(add margin on relative parent), fixed
+4."float" in img
+*/
+
+
 body{
-    background-color: blue;
+    margin: 0px;  /*all four sides = 0*/
+    text-align: center; /*only center html elements withough width set*/
+    font-family: serif;
+}
+
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100;
+}
+
+.cloud1{
+    position: absolute;
+    right:200;
+    top:50;
+}
+
+h1{
+    margin: 0 auto 0 auto;
+}
+
+span{
+    text-decoration:underline;
+}
+
+p{
+    margin: 0 auto 0 auto;
+}
+
+.cloud2{
+    position: absolute;
+    left:300;
+    bottom:300;
+}
+
+.middle{
+}
+
+.bottom{
+}
+
+.profile{
+    margin-top: 20;
 }
